@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Footer from './components/Footer'
+import ContactForm from "./components/ContactForm";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,6 +40,7 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <ContactForm />
       <Footer />
     </>
   )
